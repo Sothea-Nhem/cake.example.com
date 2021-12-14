@@ -131,6 +131,7 @@ class Application extends BaseApplication
         $this->addOptionalPlugin('Bake');
 
         $this->addPlugin('Migrations');
+        $this->addPlugin('Authentication');
 
         // Load more plugins here
     }

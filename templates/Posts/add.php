@@ -19,7 +19,6 @@
                 <legend><?= __('Add Post') ?></legend>
                 <?php
                     echo $this->Form->control('title');
-                    echo $this->Form->control('slug');
                     echo $this->Form->control('meta_keywords');
                     echo $this->Form->control('meta_description');
                     echo $this->Form->control('body');

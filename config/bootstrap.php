@@ -46,6 +46,10 @@ use Cake\Mailer\TransportFactory;
 use Cake\Routing\Router;
 use Cake\Utility\Security;
 
+// The following configuration setting must be set before loading the Users plugin
+Configure::write('Users.Social.login', true); //to enable social login
+Configure::write('Users.config', ['users']);
+
 /*
  * See https://github.com/josegonzalez/php-dotenv for API details.
  *

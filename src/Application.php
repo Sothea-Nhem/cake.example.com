@@ -134,5 +134,8 @@ class Application extends BaseApplication
         $this->addPlugin('Authentication');
 
         // Load more plugins here
+        // Social Media Connections
+        $this->addPlugin('CakeDC/Users');
+        $this->addPlugin('GoogleAuthenticate');
     }
 }

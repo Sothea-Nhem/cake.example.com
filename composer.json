@@ -1,3 +1,5 @@
+$ composer require league/oauth2-facebook:@stable
+
 {
     "name": "cakephp/app",
     "description": "CakePHP skeleton app",
